@@ -39,7 +39,7 @@ const serviceRoutes = require('./routes/services');
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Welcome to Admin Side of RoziRoti.pk!');
+  res.send('Welcome to Admin Side of RoziRoti.pk! with latest updated cors');
 });
 // Use service routes
 // app.use("/ uploads", express.static("uploads"));
