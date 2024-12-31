@@ -37,7 +37,7 @@ const serviceRoutes = require('./routes/services');
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Welcome to RoziRoti.pk!');
+  res.send('Welcome to Admin Side of RoziRoti.pk!');
 });
 // Use service routes
 // app.use("/ uploads", express.static("uploads"));
